@@ -1,18 +1,18 @@
 ﻿  server.c
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(43,91): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(49,65): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(69,81): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(83,106): warning C4047: 'function': 'const size_t' differs in levels of indirection from 'char [73]'
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(83,31): warning C4024: 'sprintf_s': different types for formal and actual parameter 2
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(84,63): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(91,18): warning C4013: 'close' undefined; assuming extern returning int
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(106,37): warning C4013: 'atoi' undefined; assuming extern returning int
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(113,20): warning C4473: 'printf' : not enough arguments passed for format string
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(113,20): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(113,20): message : the missing variadic argument 1 is required by format string '%d'
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(125,20): warning C4473: 'printf' : not enough arguments passed for format string
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(125,20): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
-C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(125,20): message : the missing variadic argument 1 is required by format string '%d'
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(45,91): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(51,65): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(71,81): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(85,106): warning C4047: 'function': 'const size_t' differs in levels of indirection from 'char [73]'
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(85,31): warning C4024: 'sprintf_s': different types for formal and actual parameter 2
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(86,63): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(93,18): warning C4013: 'close' undefined; assuming extern returning int
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(108,37): warning C4013: 'atoi' undefined; assuming extern returning int
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(115,20): warning C4473: 'printf' : not enough arguments passed for format string
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(115,20): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(115,20): message : the missing variadic argument 1 is required by format string '%d'
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(127,20): warning C4473: 'printf' : not enough arguments passed for format string
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(127,20): message : placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+C:\Users\ashid\source\repos\SimpleFTPServer\Simple-FTP-Server\SimpleFTPServer\server.c(127,20): message : the missing variadic argument 1 is required by format string '%d'
   Generating code
   1 of 7 functions (14.3%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation

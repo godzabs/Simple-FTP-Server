@@ -10,6 +10,8 @@
 #include <string.h>
 #include <sys/types.h>
 
+#define MAX_FILE_SIZE 1000000
+
 //return a sockaddr_in struct
 void* get_in_addr(struct sockaddr* sa) {
     if (sa->sa_family == AF_INET) {
@@ -107,7 +109,7 @@ int main(void) {
         printf("[+] Incoming file size of %d bytes\n", size_of_incoming_file);
 
         //char* recv_file = malloc(sizeof(char) * (size_of_incoming_file + 2));
-        char recv_file[50000];
+        char recv_file[MAX_FILE_SIZE];
         HANDLE hFile = CreateFileA(fileName, GENERIC_READ | GENERIC_WRITE, 0, NULL, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL);
         if (!hFile) {
             printf("[-] Error with creating file, GetLastError() = %d\n");
@@ -121,7 +123,7 @@ int main(void) {
             
         }
         int lp_num_of_bytes_written = 0;
-        if (!WriteFile(hFile, recv_file, size_of_incoming_file + 2, &lp_num_of_bytes_written, NULL)) {
+        if (!WriteFile(hFile, recv_file, size_of_incoming_file, &lp_num_of_bytes_written, NULL)) {
             printf("[-] Error with writing file, GetLastError() = %d\n");
             close(accept_socket);
             CloseHandle(hFile);
